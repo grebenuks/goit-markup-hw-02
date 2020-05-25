@@ -1,0 +1,43 @@
+/* Цвет основного текста #757575  */
+/* Цвет вторичного текста #212121 */
+/* Белый #FFFFFF */
+/* Вторичный цвет фона #F5F4FA */
+/* Акцент #2196F3 */
+/* Цвет футера rgba(255, 255, 255, 0.6) */
+/* Цвет подписи rgba(255, 255, 255, 0.4) */
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+ul {
+  list-style: none;
+}
+
+/* logo */
+.logo {
+  color: #2196f3;
+}
+
+.logo-part-nav {
+  color: #212121;
+}
+
+.logo-part-footer {
+  color: #ffffff;
+}
+
+/* site nav */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-nav {
+  color: #212121;
+}
+
+/* section */
+.section-title {
+  color: #212121;
+}
