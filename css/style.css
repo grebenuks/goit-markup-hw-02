@@ -61,6 +61,7 @@ ul {
   color: var(--title-text-color);
 }
 
+/* Стили для index.html */
 /* featurers */
 .feature-list .title {
   color: var(--title-text-color);
@@ -99,7 +100,7 @@ ul {
   background-color: var(--accent-color);
 }
 
-/* Portfolio */
+/* Стили для Portfolio */
 .projects-list .title {
   color: var(--title-text-color);
 }
