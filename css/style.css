@@ -6,6 +6,13 @@
 /* Цвет футера rgba(255, 255, 255, 0.6) */
 /* Цвет подписи rgba(255, 255, 255, 0.4) */
 
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+}
+
 body {
   background-color: #ffffff;
   color: #757575;
@@ -17,27 +24,46 @@ ul {
 
 /* logo */
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-part-nav {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .logo-part-footer {
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 /* site nav */
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
-.site-nav {
-  color: #212121;
+.site-nav,
+.site-nav .link:active {
+  color: var(--title-text-color);
 }
 
 /* section */
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
+}
+
+/* featurers */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* work list */
+.work-list .title {
+  color: var(--title-text-color);
+}
+
+/* team list */
+.team-list .title {
+  color: var(--title-text-color);
+}
+.speciality {
+  color: var(--primary-text-color);
 }
