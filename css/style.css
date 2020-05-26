@@ -10,7 +10,8 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --background-color: #ffffff;
+  --primary-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
 }
 
 body {
@@ -32,7 +33,7 @@ ul {
 }
 
 .logo-part-footer {
-  color: var(--background-color);
+  color: var(--primary-white-color);
 }
 
 /* site nav */
@@ -43,6 +44,13 @@ ul {
 .site-nav,
 .site-nav .link:active {
   color: var(--title-text-color);
+}
+.site-nav .contact-link:hover,
+.site-nav .contact-link:focus {
+  color: var(--accent-color);
+}
+.site-nav .contact-link {
+  color: var(--primary-text-color);
 }
 
 /* section */
@@ -64,6 +72,34 @@ ul {
 .team-list .title {
   color: var(--title-text-color);
 }
-.speciality {
+.team-list .speciality {
+  color: var(--primary-text-color);
+}
+.section-team {
+  background-color: var(--secondary-background-color);
+}
+
+/* button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Portfolio */
+.projects-list .title {
+  color: var(--title-text-color);
+}
+.projects-list .dimension {
   color: var(--primary-text-color);
 }
