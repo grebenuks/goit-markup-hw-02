@@ -34,6 +34,9 @@ a {
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -53,6 +56,9 @@ a {
 .site-nav,
 .site-nav .link:active {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contact-nav .link:hover,
@@ -70,30 +76,68 @@ a {
 /* Hero */
 .hero {
   color: var(--title-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
   letter-spacing: 0.06em;
 }
+/* Кнопка */
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
 /* section */
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Стили для index.html */
 /* featurers */
 .features .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feautures-text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* work list */
 .work .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-transform: uppercase;
 }
 
 /* team list */
 .team .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 .team .speciality {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.19px;
 }
 .section-team {
   background-color: var(--secondary-background-color);
@@ -108,17 +152,55 @@ a {
 /* Стили для Portfolio */
 .projects .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .projects .dimension {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
 button {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 button:hover,
 button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+/* Footer */
+footer {
+  background-color: #2f303a;
+}
+
+address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+  font-style: normal;
+}
+.join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.contact-footer {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.signature {
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
