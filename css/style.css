@@ -23,6 +23,11 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* logo */
 .logo {
   color: var(--accent-color);
@@ -63,20 +68,20 @@ ul {
 
 /* Стили для index.html */
 /* featurers */
-.feature-list .title {
+.features .title {
   color: var(--title-text-color);
 }
 
 /* work list */
-.work-list .title {
+.work .title {
   color: var(--title-text-color);
 }
 
 /* team list */
-.team-list .title {
+.team .title {
   color: var(--title-text-color);
 }
-.team-list .speciality {
+.team .speciality {
   color: var(--primary-text-color);
 }
 .section-team {
@@ -89,21 +94,19 @@ ul {
   background-color: var(--accent-color);
 }
 
-.button.secondary {
+/* Стили для Portfolio */
+.projects .title {
+  color: var(--title-text-color);
+}
+.projects .dimension {
+  color: var(--primary-text-color);
+}
+button {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
 }
-
-.button.secondary:hover,
-.button.secondary:focus {
+button:hover,
+button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-}
-
-/* Стили для Portfolio */
-.projects-list .title {
-  color: var(--title-text-color);
-}
-.projects-list .dimension {
-  color: var(--primary-text-color);
 }
