@@ -36,7 +36,7 @@ ul {
   color: var(--primary-white-color);
 }
 
-/* site nav */
+/* nav */
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -45,12 +45,15 @@ ul {
 .site-nav .link:active {
   color: var(--title-text-color);
 }
-.site-nav .contact-link:hover,
-.site-nav .contact-link:focus {
+.contact-nav .link:hover,
+.contact-nav .link:focus {
   color: var(--accent-color);
 }
-.site-nav .contact-link {
+.contact-nav .link {
   color: var(--primary-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 
 /* section */
