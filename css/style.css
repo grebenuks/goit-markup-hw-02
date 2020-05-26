@@ -106,20 +106,15 @@ a {
 
 /* Стили для index.html */
 /* featurers */
-.features .title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
+
 .feautures-text {
   font-size: 14px;
   line-height: 1.71;
 }
 
 /* work list */
-.work .title {
+.work .title,
+.features .title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -139,7 +134,7 @@ a {
   font-size: 16px;
   line-height: 1.19px;
 }
-.section-team {
+.team {
   background-color: var(--secondary-background-color);
 }
 
