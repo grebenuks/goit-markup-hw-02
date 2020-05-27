@@ -22,7 +22,11 @@ body {
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
+}
+/* Временно, до появления реальных ссылок на соц сети */
+.socialmedia {
+  list-style-type: square;
 }
 
 a {
@@ -69,7 +73,7 @@ a {
   color: var(--primary-text-color);
   letter-spacing: 0.02em;
 }
-.site-nav .link.current {
+.link.current {
   color: var(--accent-color);
 }
 
