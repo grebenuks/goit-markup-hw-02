@@ -122,7 +122,7 @@ a {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -136,7 +136,7 @@ a {
 .team .speciality {
   color: var(--primary-text-color);
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
 }
 .team {
   background-color: var(--secondary-background-color);
